@@ -21,6 +21,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.7</java.version>
         <drools.version>6.4.0.Final</drools.version>
+        <jodd.version>3.9.1</jodd.version>
     </properties>
 
     <dependencies>
@@ -35,6 +36,12 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.29</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.jodd</groupId>
+            <artifactId>jodd-core</artifactId>
+            <version>${jodd.version}</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -47,8 +54,44 @@
 
             <dependency>
                 <groupId>org.drools</groupId>
+                <artifactId>drools-compiler</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.drools</groupId>
+                <artifactId>drools-decisiontables</artifactId>
+                <version>${drools.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.drools</groupId>
                 <artifactId>drools-jsr94</artifactId>
                 <version>${drools.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jodd</groupId>
+                <artifactId>jodd-bean</artifactId>
+                <version>${jodd.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jodd</groupId>
+                <artifactId>jodd-http</artifactId>
+                <version>${jodd.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jodd</groupId>
+                <artifactId>jodd-props</artifactId>
+                <version>${jodd.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.jodd</groupId>
+                <artifactId>jodd-mail</artifactId>
+                <version>${jodd.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

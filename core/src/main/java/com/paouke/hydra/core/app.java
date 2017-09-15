@@ -1,8 +1,10 @@
+package com.paouke.hydra.core;
+
 /**
  * @version : 1.0
  * @Project : hydra
- * @Program Name : PACKAGE_NAME.app
- * @Class Name : app
+ * @Program Name : PACKAGE_NAME.com.paouke.hydra.core.app
+ * @Class Name : com.paouke.hydra.core.app
  * @Copyright : Copyright (c)2017-2015
  * @Company : CreditEase
  * @Description :
