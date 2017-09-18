@@ -15,20 +15,6 @@ import JSR94.bean.PointDomain;
 import com.alibaba.fastjson.JSON;
 import org.drools.jsr94.rules.RuleServiceProviderImpl;
 
-/**
- * @version : 1.0
- * @Project : ms-pharos
- * @Program Name : DroolsJSR94Sample
- * @Class Name : DroolsJSR94Sample
- * @Copyright : Copyright (c)2017-2015
- * @Company : CreditEase
- * @Description :
- * @Author : tongwei
- * @Creation Date : 2017/9/14 15:43
- * @ModificationHistory Date             Author            Version           Description
- * ------------------------------------------------------------------
- * 2017/9/14         tongwei             1.0             1.0 Version
- */
 public class DroolsJSR94Sample {
 
     private RuleServiceProvider ruleProvider;
